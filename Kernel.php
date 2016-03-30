@@ -46,6 +46,9 @@ abstract class Kernel
             new Directives\Toctree,
             new Directives\Document,
             new Directives\RedirectionTitle,
+            new Directives\Tip,
+            new Directives\Caution,
+            new Directives\Warning,
         );
     }
 

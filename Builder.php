@@ -180,7 +180,7 @@ class Builder
     {
         $this->display('* Parsing files');
         while ($file = $this->getFileToParse()) {
-            $this->display(' -> Parsing '.$file.'...');
+            $this->display(' -> Parsing '.$file.'...<br>');
             // Process the file
             $rst = $this->getRST($file);
             $parser = new Parser(null, $this->kernel);
