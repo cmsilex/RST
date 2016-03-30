@@ -1,6 +1,6 @@
 {
-    "name": "gregwar/rst",
-    "description": "PHP library to parse reStructuredText documents",
+    "name": "cmsilex/rst",
+    "description": "Silex Service Provider for PHP library to parse reStructuredText documents",
     "keywords": ["rst", "markup", "parser"],
     "homepage": "https://github.com/Gregwar/RST",
     "license": "MIT",
@@ -14,10 +14,10 @@
     "require": {
         "php": ">=5.3.0"
     },
-    "target-dir": "Gregwar/RST",
+    "target-dir": "CMSilex/RST",
     "autoload": {
-        "psr-0": {
-            "Gregwar\\RST": ""
+        "psr-4": {
+            "CMSilex\\ServiceProviders\\": "ServiceProviders/"
         }
     }
 }
